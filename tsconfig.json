@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base",
+  "references": [
+    {
+      "path": "./packages/vue-qrcode"
+    },
+    {
+      "path": "./packages/vue-qrious"
+    }
+  ],
+  "exclude": ["**/test/**"]
+}

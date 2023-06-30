@@ -1,0 +1,7 @@
+!/.*.js
+# !/.vitepress # Disable temporarily
+.*cache
+coverage
+dist
+lib
+packages/*/CHANGELOG.md

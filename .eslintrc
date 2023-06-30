@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": "@1stg",
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.vue"
+      ],
+      "rules": {
+        "vue/require-default-prop": "off"
+      }
+    },
+    {
+      "files": [
+        "*.ts"
+      ],
+      "rules": {
+        "@typescript-eslint/consistent-type-imports": "error"
+      }
+    }
+  ]
+}

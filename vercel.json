@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "alias": [
+    "rx-vue.vercel.app",
+    "vue-rx.vercel.app"
+  ],
+  "github": {
+    "silent": true
+  }
+}
